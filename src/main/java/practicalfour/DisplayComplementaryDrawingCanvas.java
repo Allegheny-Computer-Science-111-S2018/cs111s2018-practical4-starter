@@ -52,14 +52,15 @@ public class DisplayComplementaryDrawingCanvas {
     // TODO Step Three: Read in the BLUE color value
 
     // Step Four: Create the JFrame window
-    JFrame window = new JFrame("Gregory M. Kapfhammer " + new Date());
+    JFrame window = new JFrame("Janyl Jumadinova " + new Date());
     // Step Five: Add the drawing canvas and do necessary things to
     // make the window appear on the screen!
     window.getContentPane().add(new PaintComplementaryDrawingCanvas());
     window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     // Step Six: ensure that the window is visible, enabling it to display boxes
-
-    // Step Seven: set the size for the window that will contain the colored boxes
+    window.setVisible(true);
+    
+    // TODO Step Seven: set the size for the window that will contain the colored boxes
 
   }
 }

@@ -21,7 +21,8 @@ public class PaintComplementaryDrawingCanvas extends JApplet {
   public static final int CANVAS_WIDTH = 600;
   public static final int CANVAS_HEIGHT = 400;
 
-  // TODO: define the maximum RGB value that is possible
+  // define the maximum RGB value that is possible
+  public static final int RGB_MAXIMUM = 255;
 
   /**
    * This method paints boxes using a complementary color scheme.
@@ -36,18 +37,17 @@ public class PaintComplementaryDrawingCanvas extends JApplet {
                   DisplayComplementaryDrawingCanvas.blueValue);
 
     // TODO: fill the first half (left-to-right) with the user's color
-    // make a call to page.fillRect with the correct parameters
+    // make calls to page.setColor and page.fillRect with the correct parameters
 
 
     // TODO: calculate the "complementary" color of the provided color
-    // and then create a new Color object called userComplementaryColor.
+    // and store it in a new Color object called userComplementaryColor.
     // Refer to notes in the practical assignment sheet about this calculation.
     // Make sure to add your own calculation to replace the value of null!
     Color userComplementaryColor = null;
 
     // TODO: fill the second half (left-to-right) with the complement of the user's color
-    // make a call to page.fillRect with the correct parameters
-    page.setColor(userComplementaryColor);
+    // make calls to page.setColor and page.fillRect with the correct parameters
 
   }
 }
