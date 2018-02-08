@@ -1,5 +1,5 @@
 
-# cs111s2018-practical4-solution
+# cs111s2018-practical4-starter
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
 repository contains the solution for Practical 4 in Computer Science 111.
